@@ -321,6 +321,10 @@ Run the mtg service.
 systemctl enable mtg
 systemctl start mtg
 ```
+Now you can generate some useful links:
+```
+mtg access /etc/mtg.toml
+```
 
 ## 11. Check mtg
 
