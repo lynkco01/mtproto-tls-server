@@ -40,7 +40,7 @@ Follow the instructions on https://certbot.eff.org to install a real certificate
 
 ```
 apt install snapd
-snap isntall core
+snap install core
 snap refresh core
 snap install --classic certbot
 ln -s /snap/bin/certbot /usr/bin/certbot
