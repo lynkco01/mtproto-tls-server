@@ -316,6 +316,7 @@ metric-prefix = "mtg"
 Run the mtg service.
 
 ```
+systemctl daemon-reload
 systemctl enable mtg
 systemctl start mtg
 ```
