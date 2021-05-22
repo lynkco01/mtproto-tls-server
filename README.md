@@ -102,11 +102,7 @@ Edit `/etc/nginx/sites-available/default` to make Nginx listen on port 993.
         listen 993 ssl; # managed by Certbot
 ```
 
-Restart Nginx.
-
-```
-systemctl restart nginx
-```
+Restart nginx after configuring mtg.
 
 ## 9. Configure mtg
 
@@ -325,7 +321,10 @@ Now you can generate some useful links:
 ```
 mtg access /etc/mtg.toml
 ```
-
+Restart Nginx
+```
+systemctl restart nginx
+```
 ## 11. Check mtg
 
 Check that mtg is active and running, and review messages.
