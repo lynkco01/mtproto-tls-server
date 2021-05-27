@@ -2,7 +2,7 @@
 
 These instructions document how to create a Telegram MTProto proxy server with fake TLS name equal to actual hostname. This repository includes a sample web site `html` to announce the proxy details to users.
 
-The mtg version of this tutorial has been updated to version 2.0.
+The mtg version of this tutorial has been updated to version 2.0.This method is not suitable for overturning gfw, please try to use server whitelist.
 
 You will need a server and a domain name. Create a DNS record for the hostname pointing to the server IP address.
 
